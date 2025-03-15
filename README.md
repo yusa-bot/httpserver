@@ -33,5 +33,5 @@ http_server/
     └── memo.ts #学習用個人メモ
 ```
 
-## LISENCE
+## LICENSE
 progate path　[HTTP サーバーを実装してみよう](https://app.path.progate.com/tasks/uHxzYanXCbnpdEOcwD3oN/pages/overview)
