@@ -32,3 +32,6 @@ http_server/
     └── server.test.ts #server.tsテスト用
     └── memo.ts #学習用個人メモ
 ```
+
+## LISENCE
+progate path　[HTTP サーバーを実装してみよう](https://app.path.progate.com/tasks/uHxzYanXCbnpdEOcwD3oN/pages/overview)
