@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+  <title>Hello world!</title>
+  <style>
+    /* Google Fontsから"Alkatra"というフォントを読み込み */
+    @import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap");
+
+    h1 {
+      /* h1タグ（タイトル）に"Alkatra"フォントを適用 */
+      font-family: "Alkatra", cursive;
+      /* 中央揃え */
+      text-align: center;
+    }
+    section {
+      /* ページ中央に配置 */
+      margin: 0 auto;
+      /* sectionタグの最大幅を 400px に設定 */
+      max-width: 400px;
+    }
+    .center {
+      /* 中央揃え */
+      display: grid;
+      justify-content: center;
+    }
+    /* ge-circle は 円形の枠 を作成。
+    width: 200px; height: 200px; → 幅と高さを200pxに設定。
+    border-radius: 50%; → 角を丸くして円にする。
+    background-color: #dbe4c6; → 薄いグリーンの背景。
+    overflow: hidden; → 円の外にはみ出た部分を隠す */
+    .image-circle {
+      display: grid;
+      place-items: center;
+      width: 200px;
+      height: 200px;
+      padding: 16px;
+      background-color: #dbe4c6;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    /* .image-circle img は円の中に収める 画像 のスタイル。
+    width: 190px; height: 190px; でサイズを小さめに設定（枠内にフィットさせるため）。
+    border-radius: 50%; で 画像自体も円形にする。 */
+    .image-circle img {
+      display: block;
+      width: 190px;
+      height: 190px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <!-- メインコンテンツを囲む要素（最大幅400pxで中央揃え）-->
+  <section>
+    <!-- ページのタイトル（Googleフォント適用済み） -->
+    <h1>Hello World</h1>
+    <!--  画像を中央揃えするためのラッパ -->
+    <div class="center">
+      <!-- 画像を円形にするためのコンテナ -->
+      <div class="image-circle">
+        <img src="/wanko.jpg" />
+      </div>
+    </div>
+  </section>
+</body>

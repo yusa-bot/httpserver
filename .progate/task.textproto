@@ -1,0 +1,1 @@
+task_id:"uHxzYanXCbnpdEOcwD3oN"  situation_id:"OuXjCiv4N3kTfYUUjW5vs"  check_item:{check_item_id:"HaIwXjiKI1diJXfwwJ8Cc"  command:{command_id:"15Au7TE0nzmxk4MG0dIIt"  command_line:"progate diagnose"}}  check_item:{check_item_id:"FSCEaenQvR61OwMlLYgFo"  command:{command_id:"nwnKGVbceaCtMlnV9tZX0"  command_line:"npm run test"}}
